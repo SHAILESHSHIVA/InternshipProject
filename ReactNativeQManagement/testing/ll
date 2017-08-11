@@ -1,0 +1,31 @@
+
+import React from 'react';
+import {
+        AppRegistry,
+        View,
+        Button
+        } from 'react-native';
+
+const loginButton = () => {
+  const { viewStyle } = styles;
+
+  return (
+  <View style = {viewStyle}>
+  <View></View>
+  <View>
+  <Text>{Samsung}</Text>
+  <Text>{Helpline No 9709244653}</Text>
+  <View>
+  </View>
+);
+};
+const styles = {
+  viewStyle: {
+    flex: 1,
+    justifyContent : 'space-between',
+    backgroundColor: '#c0e5fd',
+    flexDirection: 'column',
+
+  }
+};
+AppRegistry.registerComponent('testing', () => custumerComponent);
